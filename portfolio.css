@@ -1,0 +1,98 @@
+body{
+    font-family: serif;
+    margin: 0%;
+    padding: 0%;
+    line-height: 1.6;
+    background-image: url(background2.jpg);
+}
+header{
+    text-shadow: 2px 2px black;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+
+}
+
+header p{
+    margin: 0;
+    font-size: 1.2cm;
+}
+section{
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#About{
+    text-align: center;
+}
+
+
+
+#About img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+
+#Skills {
+    text-align: center;
+}
+#Skills ul{
+    list-style-type: none;
+    padding: 0;
+
+}
+
+#Skills ul li {
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid blue;
+    text-align: center;
+}
+
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.project{
+    flex: 1 1 300px;
+    
+}
+#Resume {
+    text-align: center;
+}
+
+#Resume a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: blue;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+#Resume a :hover {
+    background: #555;
+}
+#contact {
+    text-align: center;
+}
+#contact p{
+    margin:50px 0;
+
+}
+
+footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
